@@ -11,7 +11,7 @@ Compatible with standard tools including Eclipse, IntelliJ, Hudson, Jenkins, Pup
 * Minimum CPUs: 4, Recommended CPUs: 8+
 * Minimum physical/RAM on the host 8GB
 
-#1. Pre-installation
+# 1. Pre-installation
 
 ```
 [root@localhost ~]$ hostnamectl set-hostname nexus
@@ -32,7 +32,8 @@ After installation is complete, check the java version to make sure you are all 
 [root@nexus ~]$ java -version
 ```
 
-#2. Download Nexus Repository Manager 3
+# 2. Download Nexus Repository Manager 3
+
 #### Navigate to the opt directory:
 
 ```
@@ -57,7 +58,7 @@ After installation is complete, check the java version to make sure you are all 
 ```
 
 
-#3. Set User/Permissions and Configurations
+# 3. Set User/Permissions and Configurations
 #### Add a user for a nexus service.
 
 ```
@@ -123,7 +124,7 @@ nexus - nofile 65536
 ```
 
 
-#4. Set Nexus as a System Service
+# 4. Set Nexus as a System Service
 
 #### Create the Systemd service file in “/etc/systemd/system/”.
 
