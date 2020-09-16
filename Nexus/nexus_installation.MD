@@ -159,5 +159,5 @@ WantedBy=multi-user.target
 ```
 [root@nexus opt] systemctl start nexus.service
 ```
-
+#### Head over to  your browser and complete the setup
 
