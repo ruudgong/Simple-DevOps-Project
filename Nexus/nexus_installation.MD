@@ -124,7 +124,8 @@ nexus - nofile 65536
 
 
 #4. Set Nexus as a System Service
-####Create the Systemd service file in “/etc/systemd/system/”.
+
+#### Create the Systemd service file in “/etc/systemd/system/”.
 
 ```
 [root@nexus opt] vim /etc/systemd/system/nexus.service
