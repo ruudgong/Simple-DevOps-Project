@@ -80,7 +80,7 @@ After installation is complete, check the java version to make sure you are all 
 [root@nexus opt] vim /opt/nexus/bin/nexus.vmoptions
 ```
 #### Change the data directory.
-````
+```
 -Xms2703m
 -Xmx2703m
 -XX:MaxDirectMemorySize=2703m
