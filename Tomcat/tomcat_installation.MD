@@ -1,4 +1,4 @@
-# Tomcat installation on EC2 instance
+# Tomcat installation on EC2 on amazon instance
 
 ### Pre-requisites
 1. EC2 instance with Java v1.8.x 
